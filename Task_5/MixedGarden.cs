@@ -38,7 +38,7 @@ namespace Task5
             }
             return 0;
         }*/
-        public int LastWin()
+        public int LastT()
         {
             return Berries;
         }
