@@ -188,7 +188,7 @@ namespace Task5
                 ltb[1].Text = ((AppleGarden)obj).EmpPercentage( Int32.Parse( ltbx[1].Text)).ToString();
             }
             else { if (type.Name.Equals("MixedGarden")) {
-                    ltb[1].Text = ((MixedGarden)obj).LastWin().ToString();
+                    ltb[1].Text = ((MixedGarden)obj).LastT().ToString();
 
                 }
             }
