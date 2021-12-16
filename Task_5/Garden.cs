@@ -24,7 +24,7 @@ namespace Task5
             this.gardenType = gardenType;
             this.quantity = quantity;
         }
-        public double AvgScore()
+        public double AvgQ()
         {
             Dictionary<string, int>.KeyCollection keyColl = Quantity.Keys;
             int Sum = 0;
