@@ -196,7 +196,7 @@ namespace Task5
 
         private void Exm3_Click(object sender, RoutedEventArgs e)
         {
-            ltb[2].Text = ((Garden)obj).AvgScore().ToString();
+            ltb[2].Text = ((Garden)obj).AvgQ().ToString();
         }
 
         private void Exm4_Click(object sender, RoutedEventArgs e)
